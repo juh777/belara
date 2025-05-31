@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b0016;
+    font-family: "Questrial", sans-serif
+}
+
+#pag1{
+    background-image: url(h1_hero1.jpg.webp);
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 110vh;
+}
+.logo{
+   margin-left: 13%;
+    margin-top: 4vh;
+    vertical-align: middle;
+    margin-bottom: 4vh;
+}
+
+.telef{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 50%;
+}
+
+  #icon{
+    display: inline-block;
+    width: 60px;
+    margin-left: 2%;
+    height: 46px;
+  }
+
+  #icon_span{
+    border: solid 1px white ;
+    display: inline-block;
+    width: 40px;
+    margin: auto;
+  }
+
+  .text {
+    height: 100%;
+    display: flex;
+    color: white;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+  background-color: #D6A04C;
+  border: 2px solid #D6A04C;
+  text-decoration: none;
+  margin-left: 1%;
+  padding: 13px 28px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0, 0%);
+  color: white;
+  transition: 0.5s;
+}
+
+.menu{
+  margin-left: 3vh;
+  vertical-align: middle;
+  margin-left: 3vh;
+}
+
+.btn_free:hover {
+    background: none;
+    border: 1px solid #d6a04c;
+    color: #d6a04c;
+}
+
+.btn_free{padding:14px 24px;
+    background-color: #d6a04c;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    border: 1px solid #d6a04c;
+    transition: all .3s ease-out 0s;
+}
+#icon_barras{ display: inline-block;
+  width: 60px;
+  margin-left: 2%;
+  height: 46px;
+}
+  
+#icon_barras span { border: solid 1px white;
+display: inline-block;
+width: 40px;
+margin: auto;} 
+ 
+.meio{
+  font-size: 16px;
+  margin-bottom: 580px;
+  color: white;
+  position: absolute;
+  bottom: 0;  
+  left: 0;
+  margin-left: 413px; 
+}
+
+.texto{
+font-size: 60px;
+ font-weight: 150;
+ margin-bottom: 360px;
+ color: white;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ margin-left: 413px;
+}
+
+.play{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 430px;
+  margin-left: 70%;
+  top: 23vh;
+  
+}
+
+.btnyoutube {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  margin-left: 76%;
+  border: 2px solid #D6A04C;
+  box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  top: 44vh;
+}
+.btnyoutube svg {
+  fill: #D6A04C;
+  position: absolute;
+  top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.btnyoutube svg:hover {
+  fill: white;
+}
+.btnyoutube:hover {
+  background: #D6A04C;
+}
+
+
